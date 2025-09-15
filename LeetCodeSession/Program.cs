@@ -8,6 +8,7 @@ var session2 = new Palindrome_Number();
 var session3 = new ZigZagConversion();
 var session4 = new Add_Two_Numbers();
 var session5 = new Container_With_Most_Water();
+var session6 = new MergeTwoSortedLists();
 //session1.LengthOfLongestSubstring("abcabcbb");
 //session2.IsPalindrome(121);
 //session3.Convert("AB", 1);
@@ -34,3 +35,7 @@ var session5 = new Container_With_Most_Water();
 //session5.MaxArea([1, 1]);
 //session5.MaxArea([4, 3, 2, 1, 4]);
 session5.MaxArea([8, 7, 2, 1]);
+
+var list1 = new ListNode(1, new ListNode(2, new ListNode(4)));
+var list2 = new ListNode(1, new ListNode(3, new ListNode(4)));
+session6.MergeTwoLists(list1, list2);
